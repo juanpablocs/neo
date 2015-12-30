@@ -1,0 +1,15 @@
+
+<style type="text/css">
+    #login{font-size: 18px}
+    #login input{ border:0;font-size:16px;margin-bottom:20px;padding:7px 10px;box-shadow:0 0 7px 1px #ccc;}
+    #login button{cursor:pointer;border:0;padding:7px 10px;font-size:16px;background:#ddd;}
+</style>
+
+<form id="login" action="{{formAction}}" ng-submit="submitLogin($event)" name="loginForm">
+    <p>{{status}}</p>
+    <input ng-model="user.email" type="email" placeholder="email">
+    <br>
+    <input ng-model="user.password" required="required" type="password" placeholder="clave">
+    <br>
+    <button ng-disabled="!loginForm.$valid"> Iniciar sesion </button>
+</form>

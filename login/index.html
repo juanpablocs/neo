@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <style type="text/css">
+    #dinamic{margin-top:20px;width:400px;height:300px;border:1px dashed #ccc;padding:10px;}
+    </style>
+</head>
+<body>
+
+
+<div ng-app="neoApp" class="container">
+    <h1>demo login</h1>
+    <neo-login neo-type="simple" neo-action="/login"></neo-login>
+
+    <div id="dinamic" ng-controller="dinamicController">
+        <button ng-click="add()">agregar abajo</button>
+        <div id="here"></div>
+    </div>
+</div>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/components/login/login.js"></script>
+<script src="app/controllers/dinamicController.js"></script>
+</body>
+</html>

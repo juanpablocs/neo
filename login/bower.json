@@ -1,0 +1,21 @@
+{
+  "name": "neo",
+  "authors": [
+    "Juan Pablo <juanpablocs21@gmail.com>"
+  ],
+  "description": "demo login directive",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}

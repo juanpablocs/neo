@@ -1,0 +1,1 @@
+var neoApp = angular.module('neoApp', []);
