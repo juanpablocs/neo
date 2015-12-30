@@ -1,0 +1,19 @@
+{
+  "name": "webpack-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juan pablo",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.8"
+  }
+}
